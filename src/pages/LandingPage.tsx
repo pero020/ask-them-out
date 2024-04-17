@@ -80,25 +80,25 @@ function LandingPage() {
       </div>
       <div id="about-section" className="min-h-screen my-16 sm:mx-24 mx-4">
         <ul className="timeline timeline-snap-icon max-sm:timeline-compact timeline-vertical">
-          <li className="min-h-screen">
+          <li className="min-h-[60vh]">
             <div className="timeline-middle">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
             </div>
-            <div className="timeline-start max-sm:text-start sm:text-end mb-10 w-full">
+            <div className="timeline-start !self-start max-sm:text-start sm:text-end w-full">
               <time className="font-mono italic">Step 1</time>
               <h2 className="text-4xl font-black mb-2">Get Your Link</h2>
               <div className="divider" />
               <p className="text-lg">Write them a <b>Personalised Message</b> for whatever your question may be.</p>
               <div className="divider" />
-              <p className="text-lg"> Copy and <b>Save the Link</b>, eg. <br/><i>"https://ask-them-out.com/ask/Lucy-123"</i></p>
+              <p className="text-lg mb-16"> Copy and <b>Save the Link</b>, eg. <br/><i>"https://ask-them-out.com/ask/Lucy-123"</i></p>
             </div>
             <hr/>
           </li>
-          <li className="min-h-screen">
+          <li className="min-h-[60vh]">
             <div className="timeline-middle">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
             </div>
-            <div className="timeline-end text-start mb-10 w-full">
+            <div className="timeline-end !self-start text-start mb-10 w-full">
               <time className="font-mono italic">Step 2</time>
               <h2 className="text-4xl font-black mb-2">Be a Bit Brave</h2>
               <div className="divider" />
@@ -130,16 +130,16 @@ function LandingPage() {
             </div>
             <hr/>
           </li>
-          <li className="min-h-screen">
+          <li className="min-h-[60vh]">
             <div className="timeline-middle">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
             </div>
-            <div className="timeline-start max-sm:text-start sm:text-end mb-10 w-full">
+            <div className="timeline-start !self-start max-sm:text-start sm:text-end mb-10 w-full">
               <time className="font-mono italic">Step 3</time>
               <h2 className="text-4xl font-black mb-2">The Waiting Game</h2>
               <div className="divider" />
               <p className="text-lg mb-8">Whatever happens, you always profit.</p>
-              <div className="flex w-full flex-col lg:flex-row text-white">
+              <div className="flex w-full flex-col lg:flex-row text-white mb-16">
                 <div className="flex-grow card bg-success rounded-box place-items-center">If she says <b>YES</b> Congratulations, You did it!</div>
                 <div className="divider lg:divider-horizontal">OR</div>
                 <div className="flex-grow card bg-error rounded-box place-items-center">If she says <b>NO</b> It seems like a funny joke.</div>
@@ -147,11 +147,11 @@ function LandingPage() {
             </div>
             <hr/>
           </li>
-          <li className="min-h-screen">
+          <li className="min-h-[60vh] mb-8">
             <div className="timeline-middle">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
             </div>
-            <div className="timeline-end text-start mb-10 w-full">
+            <div className="timeline-end !self-start text-start mb-10 w-full">
               <time className="font-mono italic">Step 4</time>
               <h2 className="text-4xl font-black mb-2">Profit</h2>
               <div className="divider mt-8">Today</div>
