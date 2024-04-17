@@ -141,7 +141,7 @@ function LandingPage() {
               <p className="text-lg mb-8">Whatever happens, you always profit.</p>
               <div className="flex w-full flex-col lg:flex-row text-white mb-16">
                 <div className="flex-grow card bg-success rounded-box place-items-center">If she says <b>YES</b> Congratulations, You did it!</div>
-                <div className="divider lg:divider-horizontal">OR</div>
+                <div className="divider text-black lg:divider-horizontal">OR</div>
                 <div className="flex-grow card bg-error rounded-box place-items-center">If she says <b>NO</b> It seems like a funny joke.</div>
               </div>
             </div>
